@@ -1,0 +1,322 @@
+[Settings]
+ Configuration=2  ; InternationalCasino (ConfigMXHD.h)
+; Configuration=4  ; CzechSalon          (ConfigMXHD.h)
+; Configuration=5  ; CzechSalonEuro      (ConfigMXHD.h)
+; Configuration=9  ; CzechCasino         (ConfigMXHD.h)
+; Configuration=10 ; CzechCasinoEuro     (ConfigMXHD.h)
+; Configuration=15 ; IrelandCasino       (ConfigMXHD.h)
+; Configuration=16 ; Croatia             (ConfigMXHD.h)
+; Configuration=18 ; Gibraltar           (ConfigMXHD.h)
+; Configuration=19 ; GreatBritainC       (ConfigMXHD.h)
+; Configuration=20 ; GreatBritainB3      (ConfigMXHD.h)
+; Configuration=21 ; Serbia              (ConfigMXHD.h)
+; Configuration=22 ; Latvia              (ConfigMXHD.h)
+; Configuration=23 ; SlovakiaCasino      (ConfigMXHD.h)
+; Configuration=30 ; LithuaniaB          (ConfigMXHD.h)
+; Configuration=32 ; GermanyCasino2      (ConfigMXHD.h)
+; Configuration=33 ; USAInternational    (ConfigMXHD.h)
+; Configuration=34 ; SlovakiaLottery     (ConfigMLHD.h)
+; Configuration=40 ; Belgium2            (ConfigBAHD.h)
+; Configuration=41 ; LithuaniaCasino     (ConfigMXHD.h)
+; Configuration=42 ; SpainB              (ConfigENLHD.h, ConfigENLWHD.h)
+; Configuration=43 ; Albania             (ConfigMXHD.h)
+; Configuration=44 ; SpainC              (ConfigMXHD.h)
+; Configuration=46 ; Macedonia           (ConfigMXHD.h)
+; Configuration=47 ; LatinAmerica        (ConfigMXHD.h)
+; Configuration=48 ; Estonia             (ConfigMXHD.h)
+; Configuration=54 ; USAIllinois         (ConfigUSILHD.h)
+; Configuration=56 ; RomaniaCasino       (ConfigMXHD.h)
+; Configuration=57 ; Srpska              (ConfigMXHD.h)
+; Configuration=58 ; Bosnia              (ConfigMXHD.h)
+; Configuration=59 ; MacedoniaEuro       (ConfigMXHD.h)
+; Configuration=60 ; Georgia             (ConfigMXHD.h)
+; Configuration=61 ; MontenegroEuro      (ConfigMXHD.h)
+; Configuration=64 ; SpainBExclusive     (ConfigENLHD.h, ConfigENLWHD.h)
+; Configuration=66 ; USAGeorgiaSkill     (ConfigMXHD.h)
+; Configuration=69 ; Bulgaria            (ConfigMXHD.h)
+; Configuration=71 ; SouthAfrica         (ConfigMXHD.h)
+; Configuration=72 ; USAPennsylvania     (ConfigMXHD.h)
+; Configuration=75 ; USAPuertoRico       (ConfigMXHD.h)
+; Configuration=76 ; USAWestVirginia     (ConfigMXHD.h)
+; Configuration=77 ; Malta               (ConfigMXHD.h)
+; Configuration=78 ; Guyana              (ConfigMXHD.h)
+
+
+; DongleOptionName .............. sub name for configurations (see sys\sysgames.h)
+DongleOptionName=0 	  ; SubNameStandard
+; DongleOptionName=1099 ; SubNameMagicGamesHD
+; DongleOptionName=1097 ; SubNameMagicGamesHDVIP2
+; DongleOptionName=1098 ; SubNameMagicGamesHDVIP3
+; DongleOptionName=1096 ; SubNameMagicGamesHDVIPLounge
+; DongleOptionName=1095 ; SubNameMagicGamesHDVIPLoungePanthera
+; DongleOptionName=150 ; SubNameNovoLinePowerLinkBonusServer
+; DongleOptionName=201 ; SubNameMagicGamesHDBonusTerminal
+; DongleOptionName=202 ; SubNameMagicGamesHDVIP2BonusTerminal
+; DongleOptionName=203 ; SubNameMagicGamesHDVIP3BonusTerminal
+; DongleOptionName=204 ; SubNameMagicGamesHDVIPLoungeBonusTerminal
+; DongleOptionName=101  ; SubNameNovoLineGigaStarPremiumHDBonusTerminal
+; DongleOptionName=102  ; SubNameNovoLineGigaStarPremiumHDVIP2BonusTerminal
+; DongleOptionName=103  ; SubNameNovoLineGigaStarPremiumHDVIP3BonusTerminal
+; DongleOptionName=121  ; SubNameNovoLinePowerCashStandAlone             // for SpainB Bar Interseven
+; DongleOptionName=131  ; SubNameNovoLineRoyalCashDeluxe                 // for SpainB Bar Interseven
+
+; DongleOptionSubConfig ......... sub config for different configurations (spain/czech..., see gen\gcconfig.h)
+; DongleOptionSubConfig=0  ; SubStandard
+;     // Spanish regions
+ DongleOptionSubConfig=1 ; SubAndalucia
+; DongleOptionSubConfig=2 ; SubAndaluciaSalon
+; DongleOptionSubConfig=3 ; SubAragon
+; DongleOptionSubConfig=4 ; SubAragonSalon
+; DongleOptionSubConfig=5 ; SubAsturias
+; DongleOptionSubConfig=6 ; SubAsturiasSalon
+; DongleOptionSubConfig=7 ; SubBaleares
+; DongleOptionSubConfig=8 ; SubBalearesSalon
+; DongleOptionSubConfig=9 ; SubBasque
+; DongleOptionSubConfig=10 ; SubBasqueSalon
+; DongleOptionSubConfig=11 ; SubCanarias
+; DongleOptionSubConfig=12 ; SubCanariasSalon
+; DongleOptionSubConfig=13 ; SubCantabria
+; DongleOptionSubConfig=14 ; SubCantabriaSalon
+; DongleOptionSubConfig=15 ; SubCastillaLaMancha
+; DongleOptionSubConfig=16 ; SubCastillaLaManchaSalon
+; DongleOptionSubConfig=17 ; SubCastillaLeon
+; DongleOptionSubConfig=18 ; SubCastillaLeonSalon
+; DongleOptionSubConfig=19 ; SubCatalunya
+; DongleOptionSubConfig=20 ; SubCatalunyaSalon
+; DongleOptionSubConfig=21 ; SubExtremadura
+; DongleOptionSubConfig=22 ; SubExtremaduraSalon
+; DongleOptionSubConfig=23 ; SubGalicia
+; DongleOptionSubConfig=24 ; SubGaliciaSalon
+; DongleOptionSubConfig=25 ; SubLaRioja
+; DongleOptionSubConfig=26 ; SubLaRiojaSalon
+; DongleOptionSubConfig=27 ; SubMadrid
+; DongleOptionSubConfig=28 ; SubMadridSalon
+; DongleOptionSubConfig=29 ; SubMurcia
+; DongleOptionSubConfig=30 ; SubMurciaSalon
+; DongleOptionSubConfig=31 ; SubNavarra
+; DongleOptionSubConfig=32 ; SubNavarraSalon
+; DongleOptionSubConfig=33 ; SubValencia
+; DongleOptionSubConfig=34 ; SubValenciaSalon
+; DongleOptionSubConfig=35 ; SubValenciaLight
+; DongleOptionSubConfig=38 ; SubCatalunyaLight
+; DongleOptionSubConfig=39 ; SubAndaluciaSalon3
+; DongleOptionSubConfig=40 ; SubAragonSalon3
+; DongleOptionSubConfig=41 ; SubAsturiasSalon2
+; DongleOptionSubConfig=42 ; SubBalearesSalon3
+; DongleOptionSubConfig=43 ; SubBasqueSalon3
+; DongleOptionSubConfig=44 ; SubCanariasSalon3
+; DongleOptionSubConfig=45 ; SubCantabriaSalon2
+; DongleOptionSubConfig=46 ; SubCastillaLaManchaSalon2
+; DongleOptionSubConfig=47 ; SubCastillaLeonSalon3
+; DongleOptionSubConfig=48 ; SubCatalunyaSalon2
+; DongleOptionSubConfig=49 ; SubExtremaduraSalon3
+; DongleOptionSubConfig=50 ; SubGaliciaSalon3
+; DongleOptionSubConfig=51 ; SubLaRiojaSalon2
+; DongleOptionSubConfig=52 ; SubMadridSalon3
+; DongleOptionSubConfig=53 ; SubMurciaSalon3
+; DongleOptionSubConfig=54 ; SubNavarraSalon2
+; DongleOptionSubConfig=55 ; SubValenciaSalon3
+; DongleOptionSubConfig=56 ; SubAndaluciaLight
+; DongleOptionSubConfig=57 ; SubMadridSalon2
+; DongleOptionSubConfig=58 ; SubBasqueLight
+; DongleOptionSubConfig=59 ; SubExtremaduraLight
+; DongleOptionSubConfig=60 ; SubCantabriaLight
+; DongleOptionSubConfig=61 ; SubCantabriaSalon3
+; DongleOptionSubConfig=62 ; SubCastillaLaManchaSalon3
+; DongleOptionSubConfig=63 ; SubCatalunyaSalon3
+; DongleOptionSubConfig=64 ; SubCatalunyaSalon6
+;     // Spanish regions without Reserva/Banco
+; DongleOptionSubConfig=121 ; SubAndaluciaSalonX3
+; DongleOptionSubConfig=122 ; SubAragonSalonX6
+; DongleOptionSubConfig=123 ; SubAsturiasSalonX3
+; DongleOptionSubConfig=124 ; SubBalearesSalonX3
+; DongleOptionSubConfig=125 ; SubBasqueSalonX3
+; DongleOptionSubConfig=126 ; SubCanariasSalonX3
+; DongleOptionSubConfig=127 ; SubCantabriaSalonX3
+; DongleOptionSubConfig=128 ; SubCastillaLaManchaSalonX6
+; DongleOptionSubConfig=129 ; SubCastillaLeonSalonX3
+; DongleOptionSubConfig=130 ; SubCatalunyaSalonX6
+; DongleOptionSubConfig=131 ; SubExtremaduraSalonX6
+; DongleOptionSubConfig=132 ; SubGaliciaSalonX3
+; DongleOptionSubConfig=133 ; SubLaRiojaSalonX3
+; DongleOptionSubConfig=134 ; SubMadridSalonX3
+; DongleOptionSubConfig=135 ; SubMurciaSalonX6
+; DongleOptionSubConfig=136 ; SubNavarraSalonX3
+; DongleOptionSubConfig=137 ; SubValenciaSalonX3
+; DongleOptionSubConfig=138 ; SubCatalunyaSalonX3
+; DongleOptionSubConfig=139 ; SubBasqueSalonX5
+;     // Generations for GreatBritain
+; DongleOptionSubConfig=1 ; SubMagicLotto (MagicLottoPremiumHD)
+; DongleOptionSubConfig=2 ; SubIreland
+; DongleOptionSubConfig=3 ; SubMagicPlay
+;     // Generations for Switzerland
+; DongleOptionSubConfig=1 ; SubSwitzerlandCasinoB
+;     // Generations for SlovakiaLottery
+; DongleOptionSubConfig=0  ; SubStandard (VNT)
+; DongleOptionSubConfig=1  ; SubGeneration2 (VNT Bar)
+; DongleOptionSubConfig=2  ; SubGeneration3 (VNT 94)
+;     // Generations for Macedonia/MacedoniaEuro
+; DongleOptionSubConfig=1  ; SubGeneration2 (Promo)
+;     // Generations for LatinAmerica
+; DongleOptionSubConfig=19 ; SubLAMexico
+;     // Generations for MontenegroEuro, Latvia
+; DongleOptionSubConfig=0  ; SubStandard (CreditsDisplay)
+; DongleOptionSubConfig=1  ; SubGeneration2 (EuroDisplay)
+;     // Generations for Gibraltar
+; DongleOptionSubConfig=0  ; SubStandard (Salon 94%)
+; DongleOptionSubConfig=1  ; SubGeneration2 (Bar 94%)
+; DongleOptionSubConfig=2  ; SubGeneration3 (Bar 92%)
+;     // Generations for IrelandCasino
+; DongleOptionSubConfig=1 ; SubNorthernIreland (currency Pound)
+;     // Generations for Georgia
+; DongleOptionSubConfig=1 ; SubGeneration2 (Flamingo)
+;     // Generations for PowerPlay, PowerLink Bonus
+; DongleOptionSubConfig=101 ; SubBonusTerminal
+; DongleOptionSubConfig=102 ; SubDirectDataPP2BonusServer
+;     // Generations for BingoCollection (InternationalCasino, GermanyCasino2, SpainC)
+; DongleOptionSubConfig=86 ; SubBingoCollection
+;     // USAPennsylvania RTP
+; DongleOptionSubConfig=0  ; SubUSAPennsylvania90 (90% - 94%)
+; DongleOptionSubConfig=1  ; SubUSAPennsylvania88 (88% - 92%)
+;     // Generations Powerbonus & Royalbonus - DirectDataStandAlone
+; DongleOptionSubConfig=1 ; SubPowerBonus - DirectDataStandAlone
+; DongleOptionSubConfig=2 ; SubRoyalBonus - Royal Games + progressive external Jackpots
+
+; Displays ............ number of displays (1 one screen, 2 two screens, 3 three screens)
+; DisplayStartX ....... x start position for window (screen width - (800 or 1600))
+; DisplayStartY ....... y start position for window
+; DisplayFrame ........ Frame around the window (1), no frame (0)
+; DisplayUpright ...... display screens one above the other (0 not used, 1 used)
+; NumberOfDigitizers .. number of connected digitizer
+
+; Upright WVGA
+; Displays=2
+; DisplaySizeX=854
+; DisplaySizeY=480
+; DisplayUpright=1
+
+Displays=3
+DisplaySizeX=960
+DisplaySizeY=540
+; Displays=2
+; DisplaySizeX=1920
+; DisplaySizeY=1080
+DisplayStartX=0
+DisplayStartY=0
+DisplayFrame=1
+DisplayUpright=0
+NumberOfDigitizers=1
+
+; SimulationLog ..... write sim.log for simulating games (0 not used, 1 used)
+; DumpWins .......... activate dump win values (just define)
+; DumpWinsTotalBet .. activate dump for full reelstrip (value = bet)
+; DumpWinsAllPlans .. dump also special winplans (0 not used, 1 used)
+; DumpWinsType ...... use WinLimit (0 show limied wins, 1 show unlimited win value)
+; SimulationLog=1
+; DumpWins=1
+; DumpWinsTotalBet=100
+; DumpGameInfos=1
+; DumpGameOdds=1
+
+; server addresses and usage
+; * directRandom / lottery.net (0 not used, 1 used - register lottery.net (user: LTest, pw: 1234; database: LNETTest)
+; AddressDirectRandomServer=192.168.0.1
+; * directdata
+AddressDirectDataServer=192.168.0.1
+
+; dongle file which overwrite the following dongle settings (e.g. d:\aw-8n.dcfg )
+; Dongle=GameSelConf\FF2HD-AW-MagicGamesHD-DEMOWIN-ATSn.fcfg
+
+; DongleOptionScreens ........... number of screens in dongle (not used in debug mode, see start\program.cpp)
+; DongleOptionNet ............... use network functionality (0 not used, 1 used)
+; DongleOptionTerminal .......... terminal number for LiveRoulette
+; DongleOptionProtocolSecurity .. option for protocols (with 1 protocol errors stop machine)
+; DongleOptionRental ............ use rental license (0 not used, 1 used)
+; DongleOptionMasterReset ....... MasterReset GameSelector for Illinois (0 not used, 1 used)
+; DongleOptionDemoWin ........... enable DemoWin to allow adjusting wins with simulation builds (0 disabled, 1 enabled)
+
+DongleOptionScreens=3
+DongleOptionNet=1
+DongleOptionTerminal=0
+DongleOptionProtocolSecurity=0
+DongleOptionRental=0
+DongleOptionDemoWin=1
+
+; *** Dongle option sub parameter *** SysConfiguration.h SubParameter
+; DongleOptionSubParameter0=840 ; SubParameterInternationalCasinoCurrencyId: (978,840,826) currency used for config InternationalCasino (http://en.wikipedia.org/wiki/ISO_4217)
+
+; DongleOptionSubParameter0= ; SubParameterSpainBMaxNote: euro 20, 50, 100
+; DongleOptionSubParameter1= ; SubParameterSpainBNoteAccept: euro 5-50
+; DongleOptionSubParameter2= ; SubParameterSpainBCreditConfirmed: cent 20-2000
+; DongleOptionSubParameter3= ; SubParameterSpainBCreditInLimit: euro 10-100
+; DongleOptionSubParameter4= ; SubParameterSpainBMaxCreditos: euro 4-20
+; DongleOptionSubParameter5= ; SubParameterSpainBMaxBanco: euro 40-3000
+; DongleOptionSubParameter6= ; SubParameterSpainBTransferToCreditos: bit 0 OnlyToEmptyCreditos, bit 1 BancoToCreditos
+; DongleOptionSubParameter7= ; SubParameterSpainBGamesPerTime: games 100-240(/10minutes), 241-900(/30minutes)
+; DongleOptionSubParameter8= ; SubParameterSpainBMinimumOdds: permil 700-900
+; DongleOptionSubParameter9= ; SubParameterSpainBCycle: kilo 20, 40, 60, 80, 100, 120
+; DongleOptionSubParameterA= ; SubParameterSpainBMinCreditBet: cent 10, 20
+; DongleOptionSubParameterB= ; SubParameterSpainBMaxCreditBet: cent 10, 20, 50, 60, 100, 200, 300, 600
+; DongleOptionSubParameterC= ; SubParameterSpainBMaxCreditWinFactor: factor 400, 500, 600, 800, 1000, 1500, 2000
+; DongleOptionSubParameterD= ; SubParameterSpainBCreditUnit: cent 10, 20
+; DongleOptionSubParameterE= ; SubParameterSpainBMaxPointWin:        // points 200-2000
+; DongleOptionSubParameterF= ; SubParameterSpainBForceCollect:       // points 0, 300-3000
+; DongleOptionSubParameterG= ; SubParameterSpainBTrafoOptions:       // bit 0 AutomaticBankGame, bit 1 BetButton, bit 2 PuntosReduction
+; DongleOptionSubParameterH= ; SubParameterSpainBPartialCollect,     // points 0, 50-500
+; DongleOptionSubParameterI= ; SubParameterSpainBForceCollectOffset, // points 0, 30-300
+; DongleOptionSubParameterJ= ; SubParameterSpainBLockOptions,        // bit 0 SwitchLock, bit 1 StaticLock
+; DongleOptionSubParameterK=
+; DongleOptionSubParameterL=
+; DongleOptionSubParameterM= ; SubParameterMenuDesign,               // menu design: default=0, red=2
+; DongleOptionSubParameterN=
+; DongleOptionSubParameterO= ; SubParameterDongleModification        // the following parameters are automatically modified with an updated/downloaded dongle and the default dongle mask
+; DongleOptionSubParameterP= ; SubParameterGameOdds: permil 880-950           // USAPuertoRico, USAIllinois, SpainB, InternationalCasino
+; DongleOptionSubParameterQ= ; SubParameterGameOddsLowBets: permil 880-950    // USAIllinois, SpainB
+; DongleOptionSubParameterR= ; SubParameterGameOddsHighBets: permil 880-950   // USAIllinois, SpainB
+; DongleOptionSubParameterS= ; SubParameterSmoothedGameOdds: permil 880-950   // SpainB
+; DongleOptionSubParameterT=
+; DongleOptionSubParameterU=
+; DongleOptionSubParameterV=
+
+; *** serial ports for debugging ***
+; ComPortPrinter ..... ticket printer
+; ComPortBacta ....... bacta serial port (Great Britain)
+; ComPortCardReader .. card reader port
+; ComPortGsp ......... gsp protocol
+; ComPortSasX ........ sas serial port (per channel)
+; ComPortMetrology ... metrology protocol (Belgium)
+; ComPortPtb ......... ptb protocol (Germany)
+; ComPortVdai .........vdai serial port (Germany/Spain)
+
+; ComPortPrinter=1
+; ComPortBacta=4
+; ComPortCardReader=1
+; ComPortGsp=1
+ComPortSas0=1
+ComPortSas1=0
+ComPortSas2=0
+; ComPortMetrology=1
+; ComPortPtb=1
+; ComPortVdai=4
+
+; where to place hardcopy (screen) files (for GameSelConf)
+; Hardcopy=.
+
+; MagicNBase ... where to find base resources (diskstore, executable), not necessary
+; MagicNRes .... where to find standard resources
+; MagicNVideo .. where to find video resources
+; MagicNBase=.
+; MagicNRes=.
+; MagicNVideo=.
+
+; DebugNoExecuteOfApps = 1
+
+; DebugUseOriginalStore ... store history and game data (0 not used, 1 used)
+DebugUseOriginalStore = 1
+
+[SysDrv]
+Parallel=0x08
+PicVersion=0x25
+PicSerial=0xbaadc0de
+PicKey=0xbaadcafe
+; UIOR=0xc000
